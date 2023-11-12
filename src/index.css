@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Muli",sans-serif;
+}
+
+.navbar{
+    background-color:rgb(86, 244, 191) !important;
+}
+
+
+.navbar-brand,.brand-name{
+    font-size: 1.8rem !important;
+    color: purple !important;
+    font-weight: bolder;
+    text-transform: capitalize;
+}
+
+.nav-link{
+    color: black !important;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+.active{
+    border-bottom: 1px solid purple !important;    
+
+}
+
+.navbar a:hover{
+    color: rgb(12, 112, 206) !important;
+    font-weight:bolder;
+}
+
+#header{
+    width: 100%;
+    height: 80vh;
+    margin-top: 20px !important;
+}
+#header h1{
+    margin: 0 0 5px 0;
+    font-weight: 700;
+    color: black;
+}
+
+#header h2{
+    color: darkgray;
+}
+.header-img{
+    text-align: right;
+}
+
+
+#header .animated{
+    animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+
+@-webkit-keyframes up-down{
+    0%{
+        transform: translateX(-10px);
+    }
+ 
+    100%{
+        transform: translateX(10px);
+   
+  
+    }
+}
+@keyframes up-down {
+    0%{
+        transform: translateX(-10px);
+    }
+  
+    100%{
+        transform: translateX(10px);
+   
+  
+    }
+
+}
+
+
+
+@media (max-width:991px){
+    #header{
+        height: 80vh;
+        text-align: center !important;
+    }
+    #header .header-img{
+        text-align:center;
+        margin-top: 30%;
+    }
+    #header .header-img img{
+        width: 60%;
+       
+    }
+    .navbar-brand{
+        font-size: 1.5rem !important;
+    }
+.headerimgow{
+height: 70% !important;
+margin-top: 10% !important;
+}
+
+}
+
+@media(max-width:768px){
+    #header{
+        margin-top: 20px;
+    }
+    #header h1{
+        font-size:28px;
+    }
+    #header h2{
+        font-size:18px;
+        margin-bottom: 30px;
+    }
+    #header .header-img img{
+        width: 60%;
+    }
+    
+  
+}
+@media(max-width:352px){
+    .top-btn{
+        width:3rem !important;
+        height:3rem !important;
+    }
+    .footso{
+      font-size: 12px;
+        font-weight: 600;
+    
+       
+    }
+}
+
+@media(max-width:282px){
+    #header .header-img{
+        margin-top: 80%;
+    }
+    .navbar-brand{
+        font-size:1.2rem !important;
+    }
+}
+
+.contact_div{
+    width: 100%;
+    height: 75vh;
+    
+}
+.figure{
+&::after{
+    content:"";
+    position:absolute;
+    top:0;
+    left:0;
+    width:0%;
+    height:80%;
+    background-color:white;
+    transition:all 0.2s linear;
+    cursor:pointer;
+  }
+
+ &:hover::after{
+    width:100%;
+    background-color:transparent;
+  }
+  &:hover img{
+    transform: scale(1.2);
+  }
+  .card-img-top{
+    width:80% !important;
+margin-left: 10% ;
+margin-top: 10% ;
+  }
+}
+
+.top-btn{
+    font-size:2.4rem;
+    width:4rem;
+    height:4rem;
+    color:#fff;
+    background-color:rgb(7, 169, 169);
+    box-shadow:black;
+    border-radius:50%;
+    position:fixed;
+    bottom:4rem;
+    right:2rem;
+    z-index:999;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    cursor:pointer;
+   right: 2%;
+  
+    
+}
+.top-btn:active{
+    transform: scale(0.95);
+}
+
+.top-btn-icon{
+    animation:gototopw 1s linear infinite alternate-reverse;
+}
+@keyframes gototopw {
+0%{
+transform:translateY(-0.7rem);
+}
+100%{
+transform:translateY(0.96rem);
+}
+}
+
+.map{
+    display:flex;
+    justify-content:center;
+align-items: center;
+    margin:auto;
+    
+  }
+  .closeicon{
+    width: 2.5rem;
+    height: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+border-radius: 50%;
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 600;
+cursor: pointer;
+box-shadow: 3px 0px 3px 0px grey;
+margin-right: 1%;
+margin-top: 1%;
+  }
+  .closeicon:active{
+    transform: scale(0.96);
+  }
+  .closeicon:hover{
+    color:crimson;
+    background-color: #fff;
+  }
+  .btnclose{
+    display: flex;
+    justify-content: end;
+
+  }
+  .bold{
+    color:crimson;
+   
+  }
+  .modalp{
+    font-weight: 700;
+    font-size: 22px;
+  }
+  .coly{
+color: rgb(229, 68, 68);
+font-weight: 800;
+font-size: 24px;
+
+  }
+  .welcome{
+    background-color: yellow;
+    font-weight: 700;
+font-size: 20px;
+text-align: center;
+
+  }
+.footso{
+    text-decoration: none !important;
+    color: crimson;
+    font-weight: 600;
+
+   
+}
+.footso:hover{
+    color: blue;
+}
+.thirdcolumn{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
