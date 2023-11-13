@@ -33,7 +33,7 @@ handleclick();
     <div className="row">
         <div className="col-10">
             <p className='welcome'>Welcome सु स्वागतम्</p>
-            <p className='modalp'>From Our store you can purchase <span className="bold">any types of Dry fruits</span> and not only dry fuits, also you can  buy <span className="bold"> any varities of fruits and products for all types of puja</span></p>
+            <p className='modalp'>From Our store you can purchase <span className="bold">any types of Dry fruits</span> and not only dry fruits, also you can  buy <span className="bold"> any varities of fruits and products for all types of puja</span></p>
         </div>
     </div>
  <NavLink to="/contact"  className="btn btn-outline-info">Contact Me !</NavLink>

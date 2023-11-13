@@ -12,7 +12,7 @@ const Home = () => {
        <div className="row">
         <div className="col-md-6 pt-2 pt-lg-0 order-2 order-lg-1 d-flex justify-content-center flex-column headerbtnbody">
         <h1> Welcome to <strong className="brand-name">Baba Dry Fruits</strong></h1>
-        <p className='modalp my-3'>From Our store you can purchase <span className="bold">any types of Dry fruits</span> and not only dry fuits, also you can  buy <span className="bold"> any varities of fruits and products for all types of puja</span></p>
+        <p className='modalp my-3'>From Our store you can purchase <span className="bold">any types of Dry fruits</span> and not only dry fruits, also you can  buy <span className="bold"> any varities of fruits and products for all types of puja</span></p>
         <div className="mt-3">
             <NavLink to="/products" className="btn btn-outline-success my-3">Go to Product Section</NavLink>
         </div>
