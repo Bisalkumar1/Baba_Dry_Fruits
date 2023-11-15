@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Baba_Dry_Fruits/static/css/main.9f569744.css",
-    "main.js": "/Baba_Dry_Fruits/static/js/main.43199a21.js",
+    "main.js": "/Baba_Dry_Fruits/static/js/main.f2ebba8c.js",
     "static/media/img5.jpg": "/Baba_Dry_Fruits/static/media/img5.e5a1e69511b2e3b427f0.jpg",
     "static/media/img15.jpg": "/Baba_Dry_Fruits/static/media/img15.12f44398055637440851.jpg",
     "static/media/raja.jpg": "/Baba_Dry_Fruits/static/media/raja.93a79f151fe4addb48f7.jpg",
@@ -34,10 +34,10 @@
     "static/media/ownerkabeta.jpg": "/Baba_Dry_Fruits/static/media/ownerkabeta.e0c4fe2d835b9b79e593.jpg",
     "index.html": "/Baba_Dry_Fruits/index.html",
     "main.9f569744.css.map": "/Baba_Dry_Fruits/static/css/main.9f569744.css.map",
-    "main.43199a21.js.map": "/Baba_Dry_Fruits/static/js/main.43199a21.js.map"
+    "main.f2ebba8c.js.map": "/Baba_Dry_Fruits/static/js/main.f2ebba8c.js.map"
   },
   "entrypoints": [
     "static/css/main.9f569744.css",
-    "static/js/main.43199a21.js"
+    "static/js/main.f2ebba8c.js"
   ]
 }
