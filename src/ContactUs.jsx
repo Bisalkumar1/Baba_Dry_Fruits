@@ -37,7 +37,7 @@ height:"350",
 <div className="container contact_div">
     <div className="row">
         <div className="col-md-6 col-10 mx-auto">
-            <form  action="" method="POST">
+            <form  action="https://formspree.io/f/mbjveovr" method="POST">
             <div className="mb-3">
   <label for="exampleFormControlInput1" className="form-label">Enter Your Name</label>
   <input type="text" className="form-control" id="exampleFormControlInput1" name="FullName" value={data.FullName} onChange={InputEvent} placeholder="Your Full Name" required/>
